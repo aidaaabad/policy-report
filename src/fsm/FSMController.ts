@@ -25,11 +25,7 @@ export class FSMController {
             config.transitions,
             config.finalStates
         );
-        console.log("config.states", config.states);
-        console.log("config.states", config.states);
-        console.log("config.initialState", config.initialState);
-        console.log("config.transitions", config.transitions);
-        return null; // No errors, proceed
+             return null; // No errors, proceed
     }
 
     // Method to run the FSM and return the final state
